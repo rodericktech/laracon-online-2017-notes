@@ -31,7 +31,7 @@ container. (It was built this way because Taylor was originally going to use Sil
 First the HTTP kernel and the Console kernel are bound into the container. Immediately
 following is the Exception Handler. The app instance is then returned from the script.
 
-Many people ask aboutusing the container outside Laravel. According to Taylor this is
+Many people ask about using the container outside Laravel. According to Taylor this is
 easy.  :)  [Example] Pull in Illuminate/Container and create an instance of
 
 - Illuminate/Container/Container, and you can pull things in (dd)
